@@ -1,0 +1,10 @@
+{
+  "simulation": "sim0001.AssetGetSimulation",
+  "simulationId": "assetgetsimulation",
+  "start": 1518736159653,
+  "description": "",
+  "scenarios": ["Scenario1"],
+  "assertions": [
+
+  ]
+}
