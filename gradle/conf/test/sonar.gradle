@@ -1,0 +1,19 @@
+apply plugin: 'org.sonarqube'
+
+sonarqube {
+  properties {
+    property "sonar.host.url","$sonarUrl"
+    property "sonar.projectName","test"
+    property "sonar.sourceEncoding", "UTF-8"
+    property "sonar.tests", "src/test/java,src/test/groovy"
+    property "sonar.exclusions",
+      	"com/jeremy/generated/**/*.*" +
+     	",com/jeremy/Application.java" +
+     	",com/jeremy/dto/**/*.*" +
+     	",com/jeremy/entity/**/*.*"
+  }
+}
+
+dependencies {
+
+}

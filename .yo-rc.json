@@ -1,0 +1,8 @@
+{
+  "generator-boot-seed": {
+    "baseName": "test",
+    "packageName": "com.jeremy",
+    "serverPort": "8090",
+    "title": "sdfsfsdfsd"
+  }
+}
